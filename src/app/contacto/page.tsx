@@ -52,23 +52,27 @@ export default function ContactPage() {
                     </div>
                 ))}
               </div>
-              <div className="rounded-lg overflow-hidden border shadow-sm aspect-video">
-                {mapImage && (
-                  <Image 
-                    src={mapImage.imageUrl}
-                    alt={mapImage.description}
-                    width={800}
-                    height={600}
-                    className="w-full h-full object-cover"
-                    data-ai-hint={mapImage.imageHint}
-                  />
-                )}
-              </div>
             </div>
             <div className="bg-card p-8 rounded-lg border shadow-sm">
                 <h2 className="font-headline text-3xl font-bold mb-6">Envíanos un Mensaje</h2>
                 <ContactForm />
             </div>
+          </div>
+        </div>
+      </section>
+      <section className="pb-16 md:pb-24">
+        <div className="container px-4 md:px-6">
+           <div className="rounded-lg overflow-hidden border shadow-sm aspect-video max-w-5xl mx-auto">
+            {mapImage && (
+              <Image 
+                src={mapImage.imageUrl}
+                alt={mapImage.description}
+                width={1200}
+                height={600}
+                className="w-full h-full object-cover"
+                data-ai-hint={mapImage.imageHint}
+              />
+            )}
           </div>
         </div>
       </section>
