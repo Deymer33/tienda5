@@ -9,7 +9,7 @@ export default function ServiceLayout({
   children: React.ReactNode;
   title: string;
   description: string;
-  image: { src: string; alt: string; hint: string };
+  image?: { src: string; alt: string; hint: string };
 }) {
   return (
     <>
@@ -27,14 +27,16 @@ export default function ServiceLayout({
         <div className="container px-4 md:px-6">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="rounded-lg overflow-hidden border shadow-lg">
-              <Image
-                src={image.src}
-                alt={image.alt}
-                width={600}
-                height={400}
-                className="w-full h-full object-cover"
-                data-ai-hint={image.hint}
-              />
+              {image && (
+                <Image
+                  src={image.src}
+                  alt={image.alt}
+                  width={600}
+                  height={400}
+                  className="w-full h-full object-cover"
+                  data-ai-hint={image.hint}
+                />
+              )}
             </div>
             <div className="space-y-4">
               {children}
