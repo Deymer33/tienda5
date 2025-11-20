@@ -1,3 +1,52 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-background",
+      "description": "Industrial warehouse interior with bright lights",
+      "imageUrl": "https://images.unsplash.com/photo-1553413077-190dd305871c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxpbmR1c3RyaWFsJTIwd2FyZWhvdXNlfGVufDB8fHx8MTc2MzYwNDYyNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "industrial warehouse"
+    },
+    {
+      "id": "about-us-team",
+      "description": "A diverse group of professionals in a modern office environment discussing a project",
+      "imageUrl": "https://images.unsplash.com/photo-1624555130581-1d9cca783bc0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8dGVhbSUyMG1lZXRpbmd8ZW58MHx8fHwxNzYzNTQzNTgzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "team meeting"
+    },
+    {
+      "id": "service-abastecimiento",
+      "description": "Neatly organized warehouse shelves stocked with boxes and supplies",
+      "imageUrl": "https://images.unsplash.com/photo-1736507748808-31bb64ce6fcc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3YXJlaG91c2UlMjBzaGVsdmVzfGVufDB8fHx8MTc2MzU4OTMyOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "warehouse shelves"
+    },
+    {
+      "id": "service-mantenimiento",
+      "description": "A skilled technician in safety gear performing maintenance on a complex piece of industrial machinery",
+      "imageUrl": "https://images.unsplash.com/photo-1763478545926-e988846846f7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxpbmR1c3RyaWFsJTIwbWFpbnRlbmFuY2V8ZW58MHx8fHwxNzYzNjA0NjI2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "industrial maintenance"
+    },
+    {
+      "id": "service-logistica",
+      "description": "A fleet of delivery trucks parked at a logistics hub, ready for dispatch",
+      "imageUrl": "https://images.unsplash.com/photo-1761590542271-27a3518ab957?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxsb2dpc3RpY3MlMjB0cnVja3N8ZW58MHx8fHwxNzYzNjA0NjI2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "logistics trucks"
+    },
+    {
+      "id": "service-asesoria",
+      "description": "Two professionals engaged in a serious discussion over blueprints at a desk",
+      "imageUrl": "https://images.unsplash.com/photo-1758519288969-4806f015852d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxidXNpbmVzcyUyMGNvbnN1bHRhdGlvbnxlbnwwfHx8fDE3NjM2MDQ2MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "business consultation"
+    },
+    {
+      "id": "service-proyectos",
+      "description": "An aerial view of a large-scale construction project underway",
+      "imageUrl": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjb25zdHJ1Y3Rpb24lMjBwcm9qZWN0fGVufDB8fHx8MTc2MzYwNDYyNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "construction project"
+    },
+    {
+      "id": "contact-page-map",
+      "description": "A stylized map showing a business location",
+      "imageUrl": "https://images.unsplash.com/photo-1522678073884-26b1b87526e4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y2l0eSUyMG1hcHxlbnwwfHx8fDE3NjM1MjMyMzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "city map"
+    }
+  ]
 }
